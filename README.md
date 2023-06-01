@@ -13,7 +13,7 @@ My motivation for this application was to become a better Full-Stack web develop
 To run the application locally, please follow these steps:
 
 1. Clone the repository: `git clone https://github.com/pjt3232/E-Commerce.git`
-2. Navigate to the project directory: `cd e-commerce`
+2. Navigate to the project directory: `cd E-Commerce`
 3. Install the dependencies: `npm install`
 4. Set up the database connection by updating the .env file with your database credentials
 5. Create a new database in MySQL: source the `schema.sql` file located in the `db` directory to set up the required tables.
@@ -26,7 +26,7 @@ Please note that this application is accessible via API calls only. It does not 
 
 To interact with the application's API endpoints, you can use tools like Insomnia. Here's how you can use CRUD API calls to edit and add data to the database.
 
-1. Use a tool like Insomnia to seend HTTP requests to the API endpoints. Set the base URL for your requests as `https://localhost:3001/api`.
+1. Use a tool like Insomnia to send HTTP requests to the API endpoints. Set the base URL for your requests as `https://localhost:3001/api`.
 2. Send a GET request to `http://localhost:3001/api/categories` to retreive all categories.
 3. Send a POST request to `http://localhost:3001/api/categories` with the required request body to create a new category.
 4. Use the appropriate HTTP methods (GET, POST, PUT, DELETE) along with the corresponding endpoints to perform CRUD operations on categories, products, and tags. For PUT and DELETE requests you need a specified ID in the API call, but when used with GET requests it will allow you to view a single ID.
