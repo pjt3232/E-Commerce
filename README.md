@@ -1,5 +1,7 @@
 # E-Commerce
 
+[![E-Commerce-Screenshot.png](https://i.postimg.cc/sXWdv6WF/E-Commerce-Screenshot.png)](https://postimg.cc/HcTPNt33)
+
 ## Description
 My motivation for this application was to become a better Full-Stack web developer. I built this project to showcase my skills using Sequelize models and my understanding of CRUD API calls. This application solves the problem of editing and viewing a databse's JSON data through API requests that is accessed using API tools. I learned how to use Sequelize models, configurations, how to use dotenv files to secure creditentials, and how to use CRUD API calls to edit databases created from Sequelize and MySQL.
 
